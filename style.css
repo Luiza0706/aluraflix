@@ -1,4 +1,59 @@
 body{
-    background-color: purple;
-    color: white;
+    background-color: black;
+    color:rgb(16, 14, 150);
+    margin: 0px;
+}
+
+header {
+    border-bottom: solid 2px rgb(36, 10, 156);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(37, 14, 139);
+    font-family: "Nosifer", sans-serif;
+}
+
+section {
+    background: rgb(108, 196, 214);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    color:black;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+
+.categoria h2 {
+    color: rgb(33, 13, 122);
 }
